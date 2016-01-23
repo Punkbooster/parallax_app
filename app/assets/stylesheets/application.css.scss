@@ -40,3 +40,10 @@ figure {
 	text-align: center;
 }
 
+/* parallax section */
+
+#bird-box {
+	position: relative;
+	height: 600px;
+	background: asset_url('back-bird.jpg');
+}
