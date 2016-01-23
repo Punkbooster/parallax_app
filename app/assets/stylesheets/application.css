@@ -14,3 +14,29 @@
  *= require bootstrap
  *= require_self
  */
+
+
+body {
+	height: 2000px;
+}
+
+h1 {
+	color: #ccc;
+	weight: 300;
+}
+
+img {
+	max-width: 100%;
+}
+
+figure {
+	margin: auto;
+}
+
+.content#article {
+	padding: 100px 0;
+	max-width: 640px;
+	margin: 0 auto;
+	text-align: center;
+}
+
