@@ -46,4 +46,7 @@ figure {
 	position: relative;
 	height: 600px;
 	background: asset_url('back-bird.jpg');
+	background-size: auto 600px;
+	background-position: top center;
+	background-attachment: fixed;
 }
