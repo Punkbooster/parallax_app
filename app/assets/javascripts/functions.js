@@ -15,9 +15,11 @@ $(window).scroll(function() {
 	});
 
 	if (wScroll > $('.clothes-pics').offset().top) {
-		$('.clothes-pics figure').each(function() {
+		$('.clothes-pics figure').each(function(i) {
 
-			$('.clothes-pics figure').addClass('is-showing');
+			setTimeout(function() {
+				$('.clothes-pics figure').eq(i).addClass('is-showing');
+			}, 150 * (i+1));
 		});
 	}
 
