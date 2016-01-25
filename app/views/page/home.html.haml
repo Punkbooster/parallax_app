@@ -10,23 +10,32 @@
 	%hr
 	.clothes-pics
 		%row
-			.col-lg-4.figure
-				= image_tag("model1.jpg")
-			.col-lg-4.figure
-				= image_tag("model2.jpg")
-			.col-lg-4.figure
-				= image_tag("model3.jpg")
+			.col-lg-4
+				%figure
+					= image_tag("model1.jpg")
+			.col-lg-4
+				%figure
+					= image_tag("model2.jpg")
+			.col-lg-4
+				%figure
+					= image_tag("model3.jpg")
+		%row
+			.col-lg-4
+				%figure
+					= image_tag("model2.jpg")
+			.col-lg-4
+				%figure
+					= image_tag("model1.jpg")
+			.col-lg-4
+				%figure
+					= image_tag("model3.jpg")
 		%row
 			.col-lg-4.figure
-				= image_tag("model2.jpg")
+				%figure
+					= image_tag("model3.jpg")
 			.col-lg-4.figure
-				= image_tag("model1.jpg")
+				%figure
+					= image_tag("model2.jpg")
 			.col-lg-4.figure
-				= image_tag("model3.jpg")
-		%row
-			.col-lg-4.figure
-				= image_tag("model3.jpg")
-			.col-lg-4.figure
-				= image_tag("model2.jpg")
-			.col-lg-4.figure
-				= image_tag("model3.jpg")						
+				%figure
+					= image_tag("model3.jpg")						
