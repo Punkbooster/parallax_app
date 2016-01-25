@@ -16,6 +16,9 @@
  */
 
 
+
+/* Baisc styles */
+
 body {
 	height: 2000px;
 }
@@ -40,7 +43,7 @@ figure {
 	text-align: center;
 }
 
-/* parallax section */
+/* Parallax section */
 
 #bird-box {
 	position: relative;
@@ -84,4 +87,11 @@ figure {
 	position: absolute;
 	left: 50%;
 	margin-left: -480px;
+}
+
+/* Model grid */
+
+.clothes-pics .figure {
+	margin-bottom: 20px;
+	position: relative;
 }
