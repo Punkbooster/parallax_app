@@ -14,4 +14,8 @@ $(window).scroll(function() {
 		'transform' : 'translate(0px, -'+ wScroll / 40 +'%)' //make fore-bird to scroll up, 4 times slower
 	})
 
+	if (wScroll > $('.clothes-pics').offset().top) {
+		console.log("Hi!")
+	}
+
 })
