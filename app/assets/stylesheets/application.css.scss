@@ -20,7 +20,7 @@
 /* Baisc styles */
 
 body {
-	height: 2000px;
+	height: 3000px;
 }
 
 h1 {
@@ -102,4 +102,16 @@ figure {
 		opacity: 1;
 		transform: translateX(0px);
 	}
+}
+
+/* Large window */
+
+.large-window {
+	height: 640px;
+	background-image: url(model2.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-top: 100px;
+	border-radius: 50%;
 }
