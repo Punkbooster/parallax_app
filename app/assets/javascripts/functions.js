@@ -23,4 +23,8 @@ $(window).scroll(function() {
 		});
 	}
 
+	if(wScroll > $('.large-window').offset().top - $(window).height()) {
+		console.log("Yo!")
+	}
+
 })
