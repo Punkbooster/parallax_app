@@ -154,9 +154,37 @@ figure {
 		right: 0;
 		bottom: 0;
 		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.promo-text {
 		color: white;
+		font-weight: 100;
+		font-size: 50px;
+		strong {
+			display: block;
+			font-size: 30px;
+		}
+		span {
+			font-weight: 300;
+			font-size: 18px;
+			font-style: italic;
+			color: rgba(255,255,255,0.6);
+		}
+		.cta-window {
+			font-size: 20px;
+			text-decoration: none;
+			color: white;
+			border: 1px solid white;
+			padding: 10px 20px;
+			transition: all 0.3s ease-in-out;
+			
+			&:hover {
+				background: white;
+				color: black;
+			}
+		}
 	}
 }
