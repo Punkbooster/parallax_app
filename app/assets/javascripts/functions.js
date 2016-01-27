@@ -23,8 +23,9 @@ $(window).scroll(function() {
 		});
 	}
 
-	if(wScroll > $('.large-window').offset().top - $(window).height()) {
-		console.log("Yo!")
+	if(wScroll > $('.large-window').offset().top - $(window).height()){
+		
+    	$('.large-window').css({'background-position':'center '+ (wScroll - $('.large-window').offset().top) +'px'});
 	}
 
 })
