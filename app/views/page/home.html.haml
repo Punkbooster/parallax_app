@@ -9,7 +9,7 @@
 	%p#content Pour-over art party 3 wolf moon, aesthetic marfa chia four dollar toast quinoa wayfarers jean shorts. Selvage DIY meh brunch deep v. Pitchfork stumptown tofu, quinoa fanny pack umami sustainable tousled. Pork belly fashion axe asymmetrical, meggings mlkshk raw denim keffiyeh. Chia craft beer typewriter gluten-free you probably haven't heard of them, plaid XOXO echo park knausgaard. PBR&B before they sold out williamsburg farm-to-table leggings slow-carb. Taxidermy direct trade cray, VHS literally iPhone fingerstache man bun.
 	%hr
 	.clothes-pics
-		%row
+		.row
 			.col-lg-4
 				%figure
 					= image_tag("model1.jpg")
@@ -28,7 +28,7 @@
 					%figcaption 
 						BlackBird Trousers - 
 						%strong 300$
-		%row
+		.row
 			.col-lg-4
 				%figure
 					= image_tag("model2.jpg")
@@ -47,7 +47,7 @@
 					%figcaption 
 						BlackBird Sweater - 
 						%strong 150$
-		%row
+		.row
 			.col-lg-4.figure
 				%figure
 					= image_tag("model3.jpg")
@@ -87,7 +87,7 @@
 	%hr
 	
 	.blog-posts
-		%row
+		.row
 			.col-lg-4
 				.post.post-1
 					%h5 Post title
@@ -106,3 +106,36 @@
 					= image_tag("three.jpg")
 					%p Pour-over art party 3 wolf moon, aesthetic marfa chia four dollar.
 					%a{:href => ""} Read More					
+
+.footer
+	.row.footer-stuff
+		.col-lg-3
+			%strong FIND US ON
+			%ul
+				%li
+					%a{:href => ""} Twitter	
+				%li
+					%a{:href => ""} Facebook
+				%li
+					%a{:href => ""} Pinterest
+				%li
+					%a{:href => ""} Instagram		
+		.col-lg-3
+			%strong OTHER SHOPS
+			%ul
+				%li
+					%a{:href => ""} Red Hood	
+				%li
+					%a{:href => ""} Desert Eaagle
+				%li
+					%a{:href => ""} Othertees
+				%li
+					%a{:href => ""} Drop Dead		
+		.col-lg-6
+			%p <strong> Sign Up for Newsletter. </strong> Pour-over art party 3 wolf moon, aesthetic marfa chia four dollar toast quinoa wayfarers jean shorts. Selvage DIY meh brunch deep v. Pitchfork stumptown tofu, quinoa fanny pack umami sustainable tousled.			
+			%form.row	
+				.col-lg-3
+					.form-group
+						%input.form-control{type: "text", placeholder: "Your email"}
+				.col-lg-4
+					%button.btn.btn-default{"data-dismiss" => "modal", :type => "button"} Submit	
