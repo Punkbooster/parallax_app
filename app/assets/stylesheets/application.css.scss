@@ -20,7 +20,7 @@
 /* Baisc styles */
 
 body {
-	height: 4000px;
+	font-family: "Open Sans", sans-serif
 }
 
 h1 {
@@ -36,16 +36,24 @@ figure {
 	margin: auto;
 }
 
-.content#article {
+.content {
+	position: relative;
+  	background: white;
+  	z-index: 2;
+  	margin-bottom: 400px;
+
+	article {
+	position: relative;
 	padding: 100px 0;
 	max-width: 640px;
 	margin: 0 auto;
 	text-align: center;
+	}
 }
-
 /* Parallax section */
 
 #bird-box {
+	z-index: 3;
 	position: relative;
 	height: 600px;
 	background-image: url(back-bird.jpg);
@@ -210,5 +218,25 @@ figure {
 
 	.post-3 {
 		transform: translate(-100px, 20px);
+	}
+}
+
+/* footer */
+
+.footer {
+	background: black;
+	color: white;
+	padding: 40px 0px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	
+	.footer-stuff {
+		max-width: 640px;
+		margin: 0 auto;
+	}
+
+	a {
+		color: white;
 	}
 }
